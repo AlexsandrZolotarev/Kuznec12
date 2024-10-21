@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+   
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Мастер кузнец - изделия из металла любой сложности">
+<title>Мастер кузнец - изделия из металла любой сложности</title>
+<link href="./images/log.png" rel="icon" type="image/png">
+
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="/images/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link href="./css/index.css" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
+<script async="" src="./Мастер кузнец/tag.js"></script>
+
+<script src="toast.js"></script>  
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/slick.min.js"></script>
+<script src="/js/script.js"></script>
+
+<style>
+    html{
+      scroll-behavior:smooth;
+   }
+</style>
+
+
+<body>
+    
+    
+    
+    
+<header style="display: flex;position:fixed; top: 0; left: 0; right: 0; height: 80px;z-index: 999; justify-content: center; align-items: center; background-color: #fff; border-bottom: 1px solid #dbdbdb;justify-content: space-evenly">
+	<div><a href="#Layer2"><img src="/images/dk.png" alt="" style="height: 70px; margin-left: 20px"></a></div>
+
+	<div class = "ButtonHead" id ="header1">
+		<div>Каталог</div>
+		<div>Новинки</div>
+		<div>Контакты</div>
+	</div>
+	<div><a href="#zakaz"><input type="button" id="Button1" name="" value="Войти" style="padding: 9px 12px;margin-right: 20px"></a></div>
+   <div><a href="#zakaz"><input type="button" id="Button1" name="" value="Регистрация" style="padding: 9px 12px;margin-right: 20px"></a></div>
+
+</header>
+
+
+   <div id="Layer2" style="position: absolute; width: 100%; height: 750px;"></div>
+   <form action="telegram.php" method="POST">
+         <div class="Master1" style="position:absolute;left:160px;top:170px;width:400px;height:45px;">
+            <h1 ><span id="title">Мастер кузнец</span></h1></div>
+
+            <div id="wb_Image4" style="position:absolute;top:270px;margin-left:173px;z-index:500;">
+               <img src="/images//t.png" id="Image4" alt=""></div> 
+
+         <div class="Master2"   style="position:absolute;left:173px;top:285px;width:620px;height:110px;line-height: 1.7; ">
+            <span >Закажите изделия из металла со скидкой до 20%.<br>Получите все варианты цен по вашему запросу уже через 30 минут.</span></div>
+           
+         <input class="b1" required="" name="nick" id= "nick" type="text" placeholder=" Введите имя" style ="position:absolute;left:170px;top:430px;width:350px;height:45px;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;"  > <br>
+   
+         <input class="b2 art-stranger" required="" name="phone" id="" type="text" placeholder="Введите номер телефона" style ="position:absolute;left:170px;top:500px;width:350px;height:45px;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;"  >
+         
+         <br><input  class="but1" name="send" type="submit" value="Отправить заявку на расчет" style=" line-height:50px;position:absolute;left:170px;top:575px; width:350px;height:50px;color:#ffffff;font-size:20px;font-family:'Formular',Arial,sans-serif;background-color:#f88335;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;">
+   
+     </form>
+         <a id="Izdelia"  style="position: absolute; top: 680px"></a>
+   <input type="hidden" name="item11" value="Заявка" id="tema">
+   
+   <div class ="title_izdelia"><h1>Выберите металлическое изделие, которое вас интересует:</h1> </div>
+   
+   
+ 
+
+  <!-- Izdelia -->
+  <div class="Izdelia" style="margin-top: 600px;">
+   <!-- Контент -->
+
+   <div class ="Mangal_Izdelia"><h1>Мангальные комплексы:</h1> </div>
+   <div class ="Izdelia_Buttons"><a href="#zakaz"><input type="button" id="Button1" name="" value="Рассчитать стоимость" ></a></div>
+   <div class="slider">
+      <div class="slider__item filter">
+         <img src="./images/mangal1.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/mangal2.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/mangal3.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/mangal4.jpg" alt="">
+      </div>
+   </div>
+   
+   <div class ="Aviaries_Izdelia"><h1>Вольеры для собак:</h1> </div>
+   <div class ="Izdelia_Buttons"><a href="#zakaz"><input type="button" id="Button1" name="" value="Рассчитать стоимость" ></a></div>
+
+   <div class="slider">
+      <div class="slider__item filter">
+         <img src="./images/aviaries1.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/aviaries2.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/aviaries3.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/aviaries4.jpg" alt="">
+      </div>
+   </div>
+
+   <div class ="Canopy_Izdelia"><h1>Навесы и козырьки:</h1> </div>
+   <div class ="Izdelia_Buttons"><a href="#zakaz"><input type="button" id="Button1" name="" value="Рассчитать стоимость" ></a></div>
+  
+   <div class="slider">
+      <div class="slider__item filter">
+         <img src="./images/canopy1.xToTk.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/canopy2.PctzQ.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/canopy3.gB7Xb.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/canopy4.GD51o.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/canopy5.EiWFk.jpg" alt="">
+      </div>
+   </div>
+
+   <div class ="Loft_Izdelia"><h1>Loft изделия, для дома и офиса:</h1> </div>
+   <div class ="Izdelia_Buttons" style="margin:15px 70px 0px 0px"><a href="#zakaz"><input type="button" id="Button1" name="" value="Рассчитать стоимость" ></a></div>
+   
+   <div class="slider">
+      <div class="slider__item filter">
+         <img src="./images/loft1.NrMrn.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/loft2.jOZmB.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/loft3.irY4t.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/loft4.9qPf3.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/loft5.s78hS.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/loft6.0EBTC.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/loft7.k4NYd.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/loft8.SOfR0.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/loft9.IXwPQ.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/loft10.l11KE.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/loft11.97QHT.jpg" alt="">
+      </div>
+      <div class="slider__item">
+         <img src="./images/loft12.heYvx.jpg" alt="">
+      </div>
+      <div class="slider__item filter">
+         <img src="./images/loft13.h3O4N.jpg" alt="">
+      </div>
+      
+   </div>
+   
+</div>
+   <!-- Izdelia -->
+
+         <div class="full-screen"> 
+            <div class="full-screen__body"> 
+               <div  class="full-screen__title">Уже 5 лет изготавливаем изделия из металла<br>на собственном производстве<br>по высшему стандарту </div>
+               <div>  <img  class="full-screen__hr" src="./images/t.png" alt="">  </div> 
+               <div  class="full-screen__text" > Мы уверены в качестве нашей работы<br> и используемых материалах,<br>поэтому гарантируем долгий срок службы изделий!</div>
+            </div>
+            <video  autoplay muted loop preload="auto" class ="full-screen__video"  >
+            <source   type="video/webm" src ="./videos/Video1.webm">
+            <source type="video/mp4" src ="./videos/Video.mp4" >
+         </video>  
+      </div>
+         
+           
+
+
+<!-- Advantages-->
+<a id= "Advantages" ></a>
+<div id="rec475878203" class="r" style="padding-top:130px;padding-bottom:180px; background-color:#f5f5f5;" data-bg-color="#f5f5f5">
+
+
+<div class="t490" style="margin-bottom: 100px;">
+
+<div class="t-section__container t-container">
+<div class="t-col t-col_12">
+<div class="t-section__topwrapper t-align_center">
+<div class="t-section__title t-title t-title_xs" field="btitle" >Преимущества</div></div>
+</div>
+</div>
+
+<div class="t-container">
+
+<div class="t490__col t-col t-col_4 t-align_center t-item" style="margin-bottom: 100px;">
+
+<img class="t490__img  t-img" src="./images/tools.png" imgfield="li_img__1476968690512" data-tu-max-width="400" data-tu-max-height="400" style="width:90px;" alt="" role="presentation" id="tuwidget901592">
+
+<div class="t490__wrappercenter ">
+<div class="t-heading t-heading_md" field="li_title__1476968690512" >Качественные материалы</div>
+               <div class="t-descr t-descr_xs" field="li_descr__1476968690512">Все изделия, представленные в нашей мастерской, выполнятся только из высококачественных и надежных материалов. </div>
+</div>
+
+<input type="file" class="tu-hidden-input" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></div>
+
+<div class="t490__col t-col t-col_4 t-align_center t-item" style="margin-bottom: 100px;">
+
+<img class="t490__img  t-img" src="./images/wallet.png" imgfield="li_img__1476968700508" data-tu-max-width="400" data-tu-max-height="400" style="width:90px;" alt="" role="presentation" id="tuwidget996895">
+
+<div class="t490__wrappercenter ">
+<div class="t-heading t-heading_md" field="li_title__1476968700508">Доступные цены</div>
+               <div class="t-descr t-descr_xs" field="li_descr__1476968700508">Мы являемся производством, поэтому можем предложить Вам самые низкие цены на все кованые изделия. Замер осуществляется бесплатно. </div>
+</div>
+
+<input type="file" class="tu-hidden-input" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></div>
+
+<div class="t490__col t-col t-col_4 t-align_center t-item" style="margin-bottom:100px;">
+
+<img class="t490__img  t-img" src="./images/Worker.png" imgfield="li_img__1476968722790" data-tu-max-width="400" data-tu-max-height="400" style="width:90px;" alt="" role="presentation" id="tuwidget639473">
+
+<div class="t490__wrappercenter ">
+<div class="t-heading t-heading_md" field="li_title__1476968722790">Опытные кузнецы</div>
+               <div class="t-descr t-descr_xs"  field="li_descr__1476968722790">Благодаря многолетнему опыту мастеров нашей кузни, они смогут воплотить в жизнь самые сложные кованые элементы для Вашего интерьера.</div>
+</div>
+
+<input type="file" class="tu-hidden-input" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></div>
+
+<div class="t-clear t490__separator"></div>
+<div class="t490__col t-col t-col_4 t-align_center t-item" style="margin-bottom: 100px;">
+
+<img class="t490__img  t-img" src="./images/equipment.png" imgfield="li_img__1509711759928" data-tu-max-width="400" data-tu-max-height="400" style="width:90px;" alt="" role="presentation" id="tuwidget488397">
+
+<div class="t490__wrappercenter ">
+<div class="t-heading t-heading_md"  field="li_title__1509711759928" >Современное оборудование</div>
+               <div class="t-descr t-descr_xs"  field="li_descr__1509711759928">Все изделия, представленные в нашей мастерской, выполнятся только из высококачественных и надежных материалов.</div>
+</div>
+
+<input type="file" class="tu-hidden-input" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></div>
+
+<div class="t490__col t-col t-col_4 t-align_center t-item" style="margin-bottom:100px;">
+
+<img class="t490__img  t-img" src="./images/styles.png" imgfield="li_img__1509711761609" data-tu-max-width="400" data-tu-max-height="400" style="width:90px;" alt="" role="presentation" id="tuwidget790484">
+
+<div class="t490__wrappercenter ">
+<div class="t-heading t-heading_md"  field="li_title__1509711761609">Разнообразие стилей</div>
+               <div class="t-descr t-descr_xs" field="li_descr__1509711761609">Наши дизайнеры смогут осуществить все ваши эксклюзивные идеи, при выполнении изделия из художественной ковки.</div>
+</div>
+
+<input type="file" class="tu-hidden-input" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></div>
+
+<div class="t490__col t-col t-col_4 t-align_center t-item" style="margin-bottom: 100px;">
+
+<img class="t490__img  t-img" src="./images/truck.png" imgfield="li_img__1509711763218" data-tu-max-width="400" data-tu-max-height="400" style="width:90px;" alt="" role="presentation" id="tuwidget974969">
+
+<div class="t490__wrappercenter ">
+<div class="t-heading t-heading_md"  field="li_title__1509711763218">Доставка по всей России</div>
+               <div class="t-descr t-descr_xs"  field="li_descr__1509711763218">Мы примем заказ из любых регионов России и мира. Сроки и стоимость доставки рассчитывается индивидуально под каждый заказ.</div>
+</div>
+
+<input type="file" class="tu-hidden-input" accept="image/*" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></div>
+</div>
+</div>
+
+
+ <!-- zayaavki-->
+<div class="zayavki">
+	<div  class="zayavki__p1"><p >Узнайте стоимость своего изделия прямо сейчас</p><hr>
+	</div>
+   <div  class="zayavki__p2"><p>Заполните форму заявки, мы проконсультируем вас<br>и предложим варианты в течение 24 часов</p>
+</div>
+   <br>	
+    <div style="width: 850px; margin: 18px auto 0; overflow: auto">	
+    <form action="telegram.php" method="POST">
+	<input type="hidden" name="item11" >
+        <input class="b1" required name="nick" type="text" placeholder="Имя" style="margin-top: 0; float: left;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;" />
+        <input class="b1 art-stranger" required name="phone" id="phone01" type="text" placeholder="Телефон"  style="margin-left: 12px;  margin-top: 0; float: left;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;"/>
+      <input class="FormZayavkaBut" name="send" type="submit" value="Отправить заявку" > 
+    </form>	
+    </div>
+</div>
+
+ <div id="rec475878211" class="r" >
+
+   <!-- t551-->
+
+
+         
+   <div id="Contact" class="r" >
+         
+   
+                        <div class="t551__title t-name t-name_xs"  field="title" data-animate-order="1" style="margin-bottom: 25px;" ><div style="font-size:35px;" data-customstyle="yes" >Свяжитесь с нами удобным способом:</div></div>
+                                 <div class="t551__contacts t-title t-title_xxs"  field="text" data-animate-order="2" data-animate-delay="0.3" style="font-family: 'Formular-Black',Arial,sans-serif;">+7 917 712 34 05</div>
+                                 <div class="t551__address t-text t-text_sm" field="text2" data-animate-order="3" data-animate-delay="0.3" style="margin-bottom: 25px; margin-top: 25px;">Мы в социальных сетях:</div>
+                           
+
+
+
+<div class="t-sociallinks">
+<div class="t-sociallinks__wrapper" style="display: flex;
+justify-content: center; margin: 0px 16px;">
+
+ <!-- new soclinks -->
+     <div class="t-sociallinks__item t-sociallinks__item_whatsapp" style="margin: 0px 15px 0px 15px"><a href="whatsapp://send?phone=+79177123405" target="_blank" rel="nofollow" style="width: 64px; height: 64px;"><svg class="t-sociallinks__svg" width="64px" height="64px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <path fill-rule="evenodd" clip-rule="evenodd" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100ZM69.7626 28.9928C64.6172 23.841 57.7739 21.0027 50.4832 21C35.4616 21 23.2346 33.2252 23.2292 48.2522C23.2274 53.0557 24.4823 57.7446 26.8668 61.8769L23 76L37.4477 72.2105C41.4282 74.3822 45.9107 75.5262 50.4714 75.528H50.4823C65.5029 75.528 77.7299 63.301 77.7363 48.2749C77.7408 40.9915 74.9089 34.1446 69.7626 28.9928ZM62.9086 53.9588C62.2274 53.6178 58.8799 51.9708 58.2551 51.7435C57.6313 51.5161 57.1766 51.4024 56.7228 52.0845C56.269 52.7666 54.964 54.2998 54.5666 54.7545C54.1692 55.2092 53.7718 55.2656 53.0915 54.9246C52.9802 54.8688 52.8283 54.803 52.6409 54.7217C51.6819 54.3057 49.7905 53.4855 47.6151 51.5443C45.5907 49.7382 44.2239 47.5084 43.8265 46.8272C43.4291 46.1452 43.7837 45.7769 44.1248 45.4376C44.3292 45.2338 44.564 44.9478 44.7987 44.662C44.9157 44.5194 45.0328 44.3768 45.146 44.2445C45.4345 43.9075 45.56 43.6516 45.7302 43.3049C45.7607 43.2427 45.7926 43.1776 45.8272 43.1087C46.0545 42.654 45.9409 42.2565 45.7708 41.9155C45.6572 41.6877 45.0118 40.1167 44.4265 38.6923C44.1355 37.984 43.8594 37.3119 43.671 36.8592C43.1828 35.687 42.6883 35.69 42.2913 35.6924C42.2386 35.6928 42.1876 35.6931 42.1386 35.6906C41.7421 35.6706 41.2874 35.667 40.8336 35.667C40.3798 35.667 39.6423 35.837 39.0175 36.5191C38.9773 36.5631 38.9323 36.6111 38.8834 36.6633C38.1738 37.4209 36.634 39.0648 36.634 42.2002C36.634 45.544 39.062 48.7748 39.4124 49.2411L39.415 49.2444C39.4371 49.274 39.4767 49.3309 39.5333 49.4121C40.3462 50.5782 44.6615 56.7691 51.0481 59.5271C52.6732 60.2291 53.9409 60.6475 54.9303 60.9612C56.5618 61.4796 58.046 61.4068 59.22 61.2313C60.5286 61.0358 63.2487 59.5844 63.8161 57.9938C64.3836 56.4033 64.3836 55.0392 64.2136 54.7554C64.0764 54.5258 63.7545 54.3701 63.2776 54.1395C63.1633 54.0843 63.0401 54.0247 62.9086 53.9588Z" fill="#f5914f"></path>
+</svg>
+</a></div>
+     <div class="t-sociallinks__item t-sociallinks__item_viber" title="Viber" style="margin: 0px 6px;"><a href="viber://chat?number=%2B79177123405" target="_blank" rel="nofollow" style="width: 64px; height: 64px;"><svg class="t-sociallinks__svg" width="64px" height="64px" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50Zm19.546-71.18c-1.304-1.184-6.932-4.72-18.674-4.772 0 0-13.905-.913-20.655 5.2-3.757 3.71-5.022 9.226-5.161 15.957l-.016.691c-.156 6.885-.433 19.013 11.47 22.32l-.053 10.386c0 .587.093.988.428 1.071.241.059.602-.066.91-.372 1.968-1.978 8.271-9.582 8.271-9.582 8.457.553 15.186-1.117 15.91-1.354.17-.054.415-.111.72-.183 2.752-.641 10.37-2.417 11.776-13.773 1.613-13.003-.594-21.88-4.926-25.589ZM48.664 31.51a.908.908 0 0 1 .914-.901c4.585.032 8.468 1.56 11.584 4.597 3.146 3.067 4.696 7.24 4.736 12.404a.908.908 0 1 1-1.815.013c-.037-4.79-1.461-8.458-4.188-11.117-2.757-2.688-6.18-4.053-10.33-4.082a.908.908 0 0 1-.9-.914Zm2.374 2.932a1.15 1.15 0 1 0-.168 2.294c2.918.213 5.067 1.184 6.597 2.854 1.541 1.684 2.304 3.784 2.248 6.389a1.15 1.15 0 0 0 2.3.05c.067-3.133-.87-5.826-2.851-7.992-2.01-2.193-4.758-3.349-8.126-3.595Zm1.156 4.454a.908.908 0 1 0-.095 1.812c1.335.07 2.223.458 2.8 1.054.58.6.964 1.535 1.033 2.936a.908.908 0 0 0 1.813-.09c-.083-1.677-.558-3.09-1.542-4.108-.987-1.021-2.368-1.519-4.009-1.604Zm1.805 15.633c-.594.732-1.698.64-1.698.64-8.066-2.06-10.224-10.23-10.224-10.23s-.097-1.104.638-1.698l1.458-1.158c.722-.557 1.183-1.908.448-3.228a34.125 34.125 0 0 0-1.839-2.881c-.641-.877-2.136-2.671-2.142-2.677-.72-.85-1.78-1.048-2.898-.466a.045.045 0 0 0-.012.003l-.011.003a12.062 12.062 0 0 0-2.986 2.432c-.69.833-1.085 1.65-1.185 2.45a1.57 1.57 0 0 0-.022.357c-.003.354.05.706.16 1.042l.038.026c.348 1.236 1.22 3.296 3.114 6.731a40.117 40.117 0 0 0 3.735 5.654c.703.89 1.456 1.74 2.256 2.543l.029.03.057.056.085.086.086.085.086.086a29.64 29.64 0 0 0 2.543 2.255 40.072 40.072 0 0 0 5.655 3.736c3.433 1.894 5.495 2.766 6.73 3.114l.026.038c.336.11.688.164 1.041.16.12.006.24-.001.358-.022.802-.095 1.618-.49 2.448-1.184a.032.032 0 0 0 .007-.004.101.101 0 0 0 .003-.004l.012-.008a12.09 12.09 0 0 0 2.41-2.97l.003-.01a.054.054 0 0 0 .002-.013c.583-1.117.385-2.177-.47-2.899l-.189-.154c-.484-.4-1.783-1.47-2.487-1.988a34.12 34.12 0 0 0-2.879-1.838c-1.32-.736-2.669-.275-3.228.448L54 54.528Z" fill="#f5914f"></path>
+</svg></a></div>
+     <!-- /new soclinks -->
+
+ <script>
+ 
+ t_onReady(function () {
+     var rec = document.getElementById('rec475878211');
+     if (!rec) return;
+     var customImageList = rec.querySelectorAll('img.t-sociallinks__customimg');
+
+     Array.prototype.forEach.call(customImageList, function(img) {
+         var imgURL = img.getAttribute('src');
+
+         if (imgURL.indexOf('/lib__tildaicon__') !== -1 || imgURL.indexOf('/lib/tildaicon/') !== -1) {
+             var xhr = new XMLHttpRequest();
+             xhr.open('GET', imgURL);
+             xhr.responseType = 'document';
+
+             xhr.onload = function() {
+                 if (xhr.status >= 200 && xhr.status < 400) {
+                     var response = xhr.response;
+
+                     var svg = response.querySelector('svg');
+
+                     svg.style.width = '48px';
+                     svg.style.height = '48px';
+
+                     var figureList = svg.querySelectorAll('*:not(g):not(title):not(desc)');
+                     for(var j = 0; j < figureList.length; j++) {
+                         figureList[j].style.fill = '#f5914f';
+                     }
+
+                     img.parentNode.append(svg);
+                     img.remove();
+                 } else {
+                     img.style.visibility = 'visible';
+                 }
+             }
+
+             xhr.onerror = function(error) {
+               img.style.visibility = 'visible';
+             }
+
+             xhr.send();
+         }
+     });
+ });
+ 
+ </script>
+</div>
+</div>
+               
+        
+   </div>
+</div>
+</div>
+
+         <a  class="overlay" id="zakaz"></a>
+         <div class="popup">
+         <div style="position:absolute;top:-36px;text-align:left;margin-left: 652px; left: 0;right: 0;"><a class="close" title="Закрыть" href="#close"><img src="./images/close.png" class="b69"></a></div>
+         <center style="display: flex;flex-wrap: wrap;">
+             
+        <form   action="telegram.php" method="POST" id="form1" style="display: flex; flex-wrap: wrap;width: 100%;" > 
+         <span style="display:block;color:#000000;font-family:'Formular';font-size:32px;display: flex; height: 30px;"><b>Свяжитесь с нами</b></span><span style="display:block;color:#000000;font-family:'Formular';font-size:15px;height: 1px;">Оставьте ваш номер телефона и мы вам перезвоним</span> <br><br><br><br>
+             
+              
+                 <input class="NamePopUpForm" required="" name="nick" type="text" placeholder="Ваше имя" style="color:black"> <br>
+                 <input class="NamePopUpForm1 art-stranger" required="" name="phone" id="phone01" type="text" placeholder="Телефон">
+                 <input id="spasiboPopUp" class="but2" name="send" type="submit" value="Отправить" style="margin-top:-5px;">
+         </form><a class="close" title="Закрыть" href="#spasibo"></a></center></div> 
+      
+      
+      <div id = "popup" class = "popups">
+            <div class = "popup__body">
+                <div class = "popup__content">
+                    <a class="close" title="Закрыть" href="#spasibo"></a>
+                    <div class = "popup__title"> Свяжитесь с нами </div> 
+                    <div class = "popup__title2">Оставьте ваш номер телефона и мы вам перезвоним</div> 
+                    <div class = "popup__title3">Спасибо! Мы перезвоним вам в течение 15 минут.</div> 
+                    <div class = "popup__title4"> Нажимая кнопку в соглашаетесь с <u>Политикой обработки данных</u></div> 
+                </div>
+            </div>
+        </div>
+        
+     <script src="js/maska-nomera.js" type="text/javascript" ></script>
+
+      <script>
+$('.art-stranger').mask('+7 (999) 999-99-99');
+
+$.fn.setCursorPosition = function(pos) {
+  if ($(this).get(0).setSelectionRange) {
+    $(this).get(0).setSelectionRange(pos, pos);
+  } else if ($(this).get(0).createTextRange) {
+    var range = $(this).get(0).createTextRange();
+    range.collapse(true);
+    range.moveEnd('character', pos);
+    range.moveStart('character', pos);
+    range.select();
+  }
+};
+
+
+$('input[type="tel"]').click(function(){
+    $(this).setCursorPosition(4);  // set position number
+  });
+</script>
+        
+       
+</body>
+
+</html>
