@@ -59,8 +59,7 @@
 		<div>Новинки</div>
 		<div>Контакты</div>
 	</div>
-	<div><a href="#zakaz"><input type="button" id="Button1" name="" value="Войти" style="padding: 9px 12px;margin-right: 20px"></a></div>
-   <div><a href="#zakaz"><input type="button" id="Button1" name="" value="Регистрация" style="padding: 9px 12px;margin-right: 20px"></a></div>
+	<div><a href="#zakaz"><input type="button" id="Button1" name="" value="Получить консультацию" style="padding: 9px 12px;margin-right: 20px"></a></div>
 
 </header>
 
@@ -310,10 +309,10 @@
    <br>	
     <div style="width: 850px; margin: 18px auto 0; overflow: auto">	
     <form action="telegram.php" method="POST">
-	<input type="hidden" name="item11" >
-        <input class="b1" required name="nick" type="text" placeholder="Имя" style="margin-top: 0; float: left;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;" />
-        <input class="b1 art-stranger" required name="phone" id="phone01" type="text" placeholder="Телефон"  style="margin-left: 12px;  margin-top: 0; float: left;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;"/>
-      <input class="FormZayavkaBut" name="send" type="submit" value="Отправить заявку" > 
+	      <input type="hidden" name="item11" >
+          <input class="b1" required name="nick" type="text" placeholder="Имя" style="margin-top: 0; float: left;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;" />
+          <input class="b1 art-stranger" required name="phone" id="phone01" type="text" placeholder="Телефон"  style="margin-left: 12px;  margin-top: 0; float: left;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;"/>
+         <input class="FormZayavkaBut" name="send" type="submit" value="Отправить заявку" > 
     </form>	
     </div>
 </div>
@@ -408,9 +407,8 @@ justify-content: center; margin: 0px 16px;">
          <center style="display: flex;flex-wrap: wrap;">
              
         <form   action="telegram.php" method="POST" id="form1" style="display: flex; flex-wrap: wrap;width: 100%;" > 
-         <span style="display:block;color:#000000;font-family:'Formular';font-size:32px;display: flex; height: 30px;"><b>Свяжитесь с нами</b></span><span style="display:block;color:#000000;font-family:'Formular';font-size:15px;height: 1px;">Оставьте ваш номер телефона и мы вам перезвоним</span> <br><br><br><br>
-             
-              
+         <span style="display:block;color:#000000;font-family:'Formular';font-size:32px;display: flex; height: 30px;">
+            <b>Свяжитесь с нами</b></span><span style="display:block;color:#000000;font-family:'Formular';font-size:15px;height: 1px;">Оставьте ваш номер телефона и мы вам перезвоним</span> <br><br><br><br>
                  <input class="NamePopUpForm" required="" name="nick" type="text" placeholder="Ваше имя" style="color:black"> <br>
                  <input class="NamePopUpForm1 art-stranger" required="" name="phone" id="phone01" type="text" placeholder="Телефон">
                  <input id="spasiboPopUp" class="but2" name="send" type="submit" value="Отправить" style="margin-top:-5px;">

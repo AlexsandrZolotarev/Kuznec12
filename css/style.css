@@ -28,7 +28,11 @@
     color:#000000;
     font-family:'Formular',Arial,sans-serif;
     font-size:calc(15px + 5 * (100vw / 1280));
-
+    display: flex;
+}
+.ButtonHead *
+{
+    padding-left: 10%;
 }
 
 .numberHead
@@ -1052,8 +1056,11 @@ position: relative;
     .ButtonHead
     {
         margin-left:0px;
+        display: none;
     }
+    header{
 
+    }
 }
 
 @media(max-width:1024px)

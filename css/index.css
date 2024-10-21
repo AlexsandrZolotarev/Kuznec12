@@ -3,7 +3,9 @@ and (min-device-width : 300px)
 and (max-device-width : 2560px) 
 {
 
-
+   *{
+      border: 1px green solid;
+  }
 html {
 zoom : 99%;
 }
