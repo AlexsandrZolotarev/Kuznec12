@@ -429,7 +429,6 @@ resize:none;
 	padding: 50px ;
 	display: flex;
     flex-wrap: wrap;
-	justify-content:center;
 	align-items: center;
     justify-content: space-between;
 }
@@ -1081,7 +1080,14 @@ position: relative;
 }
 @media(max-width:1025px)
 {
-    
+    header
+    {
+        justify-content: normal;
+        image{
+            margin: 0;
+        }
+       
+    }
     .b1
     {
         font-size: calc(11px + 7 * (100vw / 1280));
@@ -1283,28 +1289,5 @@ position: relative;
     opacity: 1;
     visibility: visible;
 }
-@media only screen and (max-width: 576px) and (min-width: 320px)
-{
-    
-}
-@media only screen and (max-width: 768px ) and (min-width: 576px)
-{
-    
-} 
-
-@media only screen and (max-width: 992px) and (min-width: 768px)
-{
-    
-}
-@media only screen and (max-width: 1200px ) and (min-width: 992px)
-{
-    
-} 
-@media only screen and (min-width: 1400px)
-{
-    
-} 
-
-
 
 
