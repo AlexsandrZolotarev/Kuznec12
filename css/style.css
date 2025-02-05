@@ -450,31 +450,8 @@ resize:none;
 	align-items: flex-start;
 }
 
-
-.slick-slide{}
-
-.slick-slide.slick-active{}
-
-.slick-slide.slick-current{
-
-}
-
-.slick-slide.slick-center{}
-
-.slick-arrow{}
-
-.slick-arrow.slick-prev{}
-
-.slick-arrow.slick-next{}
-
-.slick-arrow.slick-disabled{}
-
-
-.slick-dots{}
-.slick-dots li{}
-.slick-dots button{}
-
 .slider {
+    display: flex;
 	position: relative;
 	padding: 0px 60px 100px 60px;
 
